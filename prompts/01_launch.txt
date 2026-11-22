@@ -1,0 +1,16 @@
+[Overview] Launch film for Orb-1, a spherical speaker from the fictional brand ZEFRIQ.
+
+[Timeline]
+0–4s: A white line extends and closes into a circle
+4–8s: The circle becomes a sphere; concentric sound waves ripple out on every beat
+8–14s: The sphere moves left. On the right, "360° SOUND", "18H BATTERY", and "320g" appear every 2 beats
+14–20s: The sphere rotates; its highlight pulses on the beat
+20–25s: Logo "ZEFRIQ"; "2027.03 DEBUT" appears at 22s. Hold the final frame for the last 1 s
+
+[Design] Background #0B0B0F, text #F2F2F2, accent color #FF5A1F. Headlines in Anton, body in Inter 500.
+
+[Motion] Ease-out; 12 frames to enter, 8 frames to exit. Switch scenes on the beat with a cut or a slide.
+
+[Sound] 120 BPM (1 beat = 15 frames). Four-on-the-floor kick + sine-wave bass. Text appears on the beat; impact hits at 4, 8, 14, and 20s.
+
+[Output] 1920×1080, 30fps, 25s (750 frames), MP4 (H.264 + AAC), under 50MB. Visuals in Remotion; audio synthesized to WAV in Node.js. Google Fonts, no external assets.

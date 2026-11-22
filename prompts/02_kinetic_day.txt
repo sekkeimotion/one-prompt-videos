@@ -1,0 +1,17 @@
+[Overview] Kinetic typography that lets you feel one day in numbers.
+
+[Timeline]
+0–2s: Punch in "1 DAY" 3 times, once per beat
+2–6s: "24 HOURS" and "1,440 MINUTES", 2 beats each
+6–12s: Count up to "86,400" and add "SECONDS"
+12–18s: "AT 30fps", "2,592,000", and "FRAMES", 2 beats each
+18–22s: "THIS VIDEO IS 25 SECONDS" → "ABOUT 0.029% OF 1 DAY"
+22–25s: Show "86,375 SECONDS LEFT. HOW WILL YOU SPEND THEM?" and hold
+
+[Design] Background #F4F1EA, text #111111, accent numbers #E63946. Numbers in Anton, words in Inter 900.
+
+[Motion] Each word pops in on the beat, scaling 0 → 110% → 100% in 6 frames. Transitions push the old text upward.
+
+[Sound] 150 BPM (1 beat = 12 frames). Square-wave bass + snare on beats 2 and 4. Impact hits at 6, 12, 18, and 22s.
+
+[Output] 1920×1080, 30fps, 25s (750 frames), MP4 (H.264 + AAC), under 50MB. Visuals in Remotion; audio synthesized to WAV in Node.js. Google Fonts, no external assets.

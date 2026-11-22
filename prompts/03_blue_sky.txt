@@ -1,0 +1,17 @@
+[Overview] An illustrated explainer of why the sky is blue, using Rayleigh scattering.
+
+[Timeline]
+0–4s: Title "Why is the sky blue?"
+4–8s: A white ray from the sun splits into 7 colors
+8–12s: Blue light scatters off molecules in all directions and spreads across the whole frame. Red goes straight
+12–16s: "Scattering strength ∝ 1/λ⁴" and a bar chart. Blue 450nm scatters about 5.9× as much as red 700nm
+16–20s: Blue reaches the eye from all directions, and the sky turns #4A90D9
+20–25s: The sun sinks to the horizon. The light path is long, so blue does not arrive, and the sky turns #F28C38. "That’s why sunsets are red"
+
+[Design] Background #0E1A2B, blue #3FA9F5, red #E94B3C. Text in Inter 700, formulas in JetBrains Mono.
+
+[Motion] Draw each light ray as a line over 16 frames. Switch scenes with a 2-beat crossfade.
+
+[Sound] 90 BPM (1 beat = 20 frames). Sine-wave pad. Impact hits at 4, 8, 12, 16, and 20s.
+
+[Output] 1920×1080, 30fps, 25s (750 frames), MP4 (H.264 + AAC), under 50MB. Visuals in Remotion; audio synthesized to WAV in Node.js. Google Fonts, no external assets.

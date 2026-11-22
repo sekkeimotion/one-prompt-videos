@@ -1,0 +1,16 @@
+[Overview] A time-lapse of a procedurally generated island, from dawn to night.
+
+[Timeline] Clock at bottom left, 5:00 → 23:00
+0–5s: Pre-dawn. Deep navy sky
+5–10s: Sunrise. Sky goes from #F6A55B to #8EC5FF
+10–15s: Noon. Shortest shadows; sea #1E88A8
+15–20s: Sunset. Sky goes from #FF7A45 to #6B3FA0
+20–25s: Night. 2,000 stars and a rotating lighthouse beam
+
+[3D] @remotion/three, driven by useCurrentFrame. Terrain: a 256×256-segment plane, seeded simplex noise, 4 octaves, falloff by distance from the center. Colors by elevation: sand #E8D7A5, grass #5C9E4A, rock #7A746B. The camera orbits 90° over 25s at a 25° downward angle.
+
+[Lighting] The sun moves on a circular orbit with the time of day; the fog color stays in sync with the sky color.
+
+[Sound] 72 BPM (1 beat = 25 frames). Pad and wave sounds, a bell every 5s, impact hits at 10s and 20s.
+
+[Output] 1920×1080, 30fps, 25s (750 frames), MP4 (H.264 + AAC), under 50MB. Audio synthesized to WAV in Node.js. Google Fonts, no external assets.
